@@ -1,0 +1,36 @@
+﻿@model WebApplication1.Models.Student
+
+
+@{
+    ViewData["Title"] = "Đăng ký chuyên ngành";
+}
+
+<h2>Đăng ký chuyên ngành</h2>
+
+<form asp-action="ShowKQ" method="post">
+    <div>
+        <label>MSSV:</label>
+        <input asp-for="MSSV" required />
+    </div>
+    <div>
+        <label>Họ tên:</label>
+        <input asp-for="HoTen" required />
+    </div>
+    <div>
+        <label>Điểm TB:</label>
+        <input asp-for="DiemTB" type="number" step="0.01" required />
+    </div>
+    <div>
+        <label>Chuyên ngành:</label>
+        <select asp-for="ChuyenNganh" required>
+            <option value="">-- Chọn chuyên ngành --</option>
+            <option value="CNPM">CNPM</option>
+            <option value="HTTT">HTTT</option>
+            <option value="ANM">ANM</option>
+            <option value="TTNT">TTNT</option>
+            <option value="MMT">MMT</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit">Đăng ký</button>
+</form>
