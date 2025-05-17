@@ -28,3 +28,4 @@ F:\test\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.
 F:\test\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 F:\test\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 F:\test\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+F:\test\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

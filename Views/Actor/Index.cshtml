@@ -1,0 +1,23 @@
+﻿@namespace WebApplication1.Models
+@model List<Actor>
+
+<ul>
+    @foreach(var actor in @Model)
+    {
+        <li>
+            <strong>@actor.Id</strong> - Ten: @actor.Name -Role: @actor.Role
+            @if(@actor.Id>=2)
+            {
+                <strong>
+                    @actor.Role
+                </strong>
+            }
+            else
+            {
+            @actor.Id
+            }
+
+        </li>
+        
+    }
+</ul>

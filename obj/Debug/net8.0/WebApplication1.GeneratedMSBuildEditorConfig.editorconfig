@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\test\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/test/WebApplication1/WebApplication1/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/test/WebApplication1/WebApplication1/Views/BT2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQlQyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/test/WebApplication1/WebApplication1/Views/Student/ShowKQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTaG93S1EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/test/WebApplication1/WebApplication1/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/test/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
